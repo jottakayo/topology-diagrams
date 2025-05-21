@@ -1,68 +1,117 @@
 # topology-diagrams
----
-# Repositório de Topologias de Infraestrutura
-
-Este repositório tem como **objetivo principal** armazenar e organizar **topologias de infraestrutura** de forma centralizada. Aqui você encontrará diagramas, esboços e descrições que servem de base para o planejamento, implantação e operação de ambientes de TI.
 
 ---
 
-## Por que documentar topologias?
+# Repositório de Topologias DevOps
 
-- **Visão Sistêmica**  
-  Diagramas de topologia mostram como componentes (redes, servidores, storage, serviços) se relacionam, permitindo identificar dependências, pontos únicos de falha e fluxos de dados.
+Este repositório tem como **objetivo principal** armazenar e organizar **topologias DevOps** de forma centralizada. Aqui você encontrará diagramas, esboços e descrições que servem de base para o planejamento, implementação e gerenciamento de ambientes, pipelines e processos de TI.
 
-- **Planejamento Eficiente**  
-  Antes de montar qualquer recurso, é fundamental ter um mapa claro do que será criado: sub-redes, VLANs, zonas de disponibilidade, firewalls, balanceadores de carga etc. Isso reduz retrabalho e imprevistos.
+---
 
-- **Comunicação entre Equipes**  
-  Um diagrama bem feito alinha DevOps, redes, segurança e negócios em torno de um mesmo entendimento, acelerando decisões e aprovações.
+## Por que documentar topologias DevOps?
 
-- **Padronização e Reutilização**  
-  Com topologias versionadas, dá para reaproveitar boas práticas, comparar evoluções e auditar mudanças ao longo do tempo.
+* **Visão Holística**
+  Topologias DevOps mostram a interconexão entre infraestruturas, fluxos de CI/CD, serviços de aplicação, monitoramento e segurança, permitindo entender todo o ciclo de vida de entrega de software.
+
+* **Planejamento e Automação**
+  Ao mapear pipelines, ambientes de teste, staging e produção, é possível automatizar etapas, definir gatilhos e evitar gargalos antes da implementação.
+
+* **Alinhamento de Equipes**
+  Diagramas claros alinham desenvolvedores, operações, segurança e negócios em torno de um mesmo entendimento, acelerando decisões, aprovações e respostas a incidentes.
+
+* **Padronização e Evolução**
+  Com topologias versionadas, equipes podem reutilizar padrões de arquitetura, comparar evoluções de pipelines e auditar alterações em todos os níveis.
+
+---
+
+## Escopo do Repositório
+
+Este repositório cobre diversos níveis de topologias DevOps:
+
+1. **Infraestrutura**: redes, servidores, storage, nuvens híbridas.
+2. **Pipelines**: build, testes, deploy, rollback, automações e integrações.
+3. **Arquitetura de Aplicação**: microservices, funções serverless, containers, service mesh.
+4. **Monitoramento e Observabilidade**: fluxos de métricas, logs, tracing e alertas.
+5. **Segurança e Compliance**: gestão de segredos, políticas de acesso, auditoria.
+
+Pasta principal:
+
+```
+/devops-topologies/
+├── infrastructure/
+├── pipelines/
+├── applications/
+├── monitoring/
+└── security/
+```
 
 ---
 
 ## Como usar este repositório
 
-1. **Navegue** pela pasta `/topologias` para ver diagramas em diversos formatos (Draw.io, PNG, SVG).  
-2. **Contribua** com novas topologias ou atualizações através de pull requests.  
-3. **Comente** sugestões ou dúvidas diretamente nos arquivos ou nas issues.
+1. **Explore** a pasta `/devops-topologies` para visualizar diagramas em formatos editáveis (Draw\.io, PNG, SVG).
+2. **Contribua** com novas topologias ou atualizações via Pull Request.
+3. **DiscutA** melhorias, dúvidas ou issues diretamente nos arquivos ou nas issues do GitHub.
 
 ---
 
-> “Mapear é o primeiro passo para construir de forma consistente e resiliente.”  
+> “Mapear fluxos e estruturas é o primeiro passo para entregar software de forma consistente, rápida e segura.”
 
 ---
+
 🇺🇸🇺🇸
 
-# Infrastructure Topology Repository
+# DevOps Topologies Repository
 
-This repository’s main goal is to store and organize infrastructure topologies in one place. You will find diagrams, sketches, and descriptions that help plan, build, and run IT environments.
-
----
-
-## Why document topologies?
-
-- **System View**  
-  Topology diagrams show how components (networks, servers, storage, services) connect. This helps find dependencies, single points of failure, and data paths.
-
-- **Efficient Planning**  
-  Before creating resources, you need a clear map of what to build: subnets, VLANs, availability zones, firewalls, load balancers, etc. This reduces rework and surprises.
-
-- **Team Communication**  
-  A good diagram aligns DevOps, network, security, and business teams with the same understanding, speeding decisions and approvals.
-
-- **Standardization & Reuse**  
-  With versioned topologies, you can reuse best practices, track changes, and audit updates over time.
+This repository’s main goal is to centrally store and organize **DevOps topologies**. You will find diagrams, sketches, and descriptions that underpin planning, implementation, and management of environments, pipelines, and processes in IT.
 
 ---
 
-## How to use this repository
+## Why document DevOps topologies?
 
-1. **Browse** the `/topologies` folder to see diagrams in different formats (Draw.io, PNG, SVG).  
-2. **Contribute** new topologies or updates with pull requests.  
-3. **Comment** suggestions or questions right in the files or in issues.
+* **Holistic View**
+  DevOps topologies illustrate connections between infrastructure, CI/CD flows, application services, monitoring, and security, enabling a complete understanding of the software delivery lifecycle.
+
+* **Planning & Automation**
+  Mapping pipelines, testing, staging, and production environments helps automate steps, set triggers, and avoid bottlenecks before deployment.
+
+* **Team Alignment**
+  Clear diagrams align development, operations, security, and business stakeholders around a shared vision, speeding up decisions, approvals, and incident response.
+
+* **Standardization & Evolution**
+  Versioned topologies allow teams to reuse architecture patterns, compare pipeline evolution, and audit changes across all layers.
 
 ---
 
-> “Mapping is the first step to building consistently and resiliently.”
+## Repository Scope
+
+This repo covers multiple levels of DevOps topologies:
+
+1. **Infrastructure**: networks, servers, storage, hybrid cloud.
+2. **Pipelines**: build, test, deploy, rollback, automations, integrations.
+3. **Application Architecture**: microservices, serverless functions, containers, service mesh.
+4. **Monitoring & Observability**: metrics, logs, tracing, alert flows.
+5. **Security & Compliance**: secret management, access policies, auditing.
+
+Main folder structure:
+
+```
+/devops-topologies/
+├── infrastructure/
+├── pipelines/
+├── applications/
+├── monitoring/
+└── security/
+```
+
+---
+
+## How to Use This Repository
+
+1. **Browse** the `/devops-topologies` folder to view diagrams in editable formats (Draw\.io, PNG, SVG).
+2. **Contribute** new topologies or updates via Pull Requests.
+3. **Discuss** improvements or questions directly in files or GitHub issues.
+
+---
+
+> “Mapping structures and flows is the first step to delivering software consistently, quickly, and securely.”
