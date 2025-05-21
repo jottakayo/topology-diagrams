@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15" version="27.0.6">
+  <diagram name="Logs-container" id="vLH202DEfBKsdI5xlHKj">
+    <mxGraphModel dx="786" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=center;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="630" height="630" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-2" value="cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-4" value="&lt;br&gt;&lt;div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="409" height="409" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-8" value="node1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="8gfn32LFTRjh_GmOpMQo-16" target="8gfn32LFTRjh_GmOpMQo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-9" value="pod/CR" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gfn32LFTRjh_GmOpMQo-17" target="8gfn32LFTRjh_GmOpMQo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-10" value="pod/CR" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="279.5" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gfn32LFTRjh_GmOpMQo-18" target="8gfn32LFTRjh_GmOpMQo-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-11" value="pod/CR" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="220" width="110" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-13" value="host" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8gfn32LFTRjh_GmOpMQo-15" target="8gfn32LFTRjh_GmOpMQo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-15" value="&lt;b&gt;KUBELET&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="301.75" y="315" width="85.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-16" value="stdout/stdrr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-17" value="stdout/stdrr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="279.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-18" value="stdout/stdrr" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-23" value="var/log/pods" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-24" value="var/log/containers" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="290" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8gfn32LFTRjh_GmOpMQo-26" value="https://mrincompetent.io/posts/2022-02-06-container-logs-in-kubernetes/?utm_source=chatgpt.com" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="598.25" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
