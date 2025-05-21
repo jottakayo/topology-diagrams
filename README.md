@@ -47,14 +47,6 @@ Pasta principal:
 
 ---
 
-## Como usar este repositório
-
-1. **Explore** a pasta `/devops-topologies` para visualizar diagramas em formatos editáveis (Draw\.io, PNG, SVG).
-2. **Contribua** com novas topologias ou atualizações via Pull Request.
-3. **DiscutA** melhorias, dúvidas ou issues diretamente nos arquivos ou nas issues do GitHub.
-
----
-
 > “Mapear fluxos e estruturas é o primeiro passo para entregar software de forma consistente, rápida e segura.”
 
 ---
@@ -103,14 +95,6 @@ Main folder structure:
 ├── monitoring/
 └── security/
 ```
-
----
-
-## How to Use This Repository
-
-1. **Browse** the `/devops-topologies` folder to view diagrams in editable formats (Draw\.io, PNG, SVG).
-2. **Contribute** new topologies or updates via Pull Requests.
-3. **Discuss** improvements or questions directly in files or GitHub issues.
 
 ---
 
