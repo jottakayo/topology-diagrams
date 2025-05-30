@@ -19,8 +19,6 @@ Este repositório tem como **objetivo principal** armazenar e organizar **topolo
 * **Alinhamento de Equipes**
   Diagramas claros alinham desenvolvedores, operações, segurança e negócios em torno de um mesmo entendimento, acelerando decisões, aprovações e respostas a incidentes.
 
-* **Padronização e Evolução**
-  Com topologias versionadas, equipes podem reutilizar padrões de arquitetura, comparar evoluções de pipelines e auditar alterações em todos os níveis.
 
 ---
 
@@ -32,7 +30,6 @@ Este repositório cobre diversos níveis de topologias DevOps:
 2. **Pipelines**: build, testes, deploy, rollback, automações e integrações.
 3. **Arquitetura de Aplicação**: microservices, funções serverless, containers, service mesh.
 4. **Monitoramento e Observabilidade**: fluxos de métricas, logs, tracing e alertas.
-5. **Segurança e Compliance**: gestão de segredos, políticas de acesso, auditoria.
 
 Pasta principal:
 
@@ -42,12 +39,7 @@ Pasta principal:
 ├── pipelines/
 ├── applications/
 ├── monitoring/
-└── security/
 ```
-
----
-
-> “Mapear fluxos e estruturas é o primeiro passo para entregar software de forma consistente, rápida e segura.”
 
 ---
 
@@ -70,8 +62,6 @@ This repository’s main goal is to centrally store and organize **DevOps topolo
 * **Team Alignment**
   Clear diagrams align development, operations, security, and business stakeholders around a shared vision, speeding up decisions, approvals, and incident response.
 
-* **Standardization & Evolution**
-  Versioned topologies allow teams to reuse architecture patterns, compare pipeline evolution, and audit changes across all layers.
 
 ---
 
@@ -83,7 +73,6 @@ This repo covers multiple levels of DevOps topologies:
 2. **Pipelines**: build, test, deploy, rollback, automations, integrations.
 3. **Application Architecture**: microservices, serverless functions, containers, service mesh.
 4. **Monitoring & Observability**: metrics, logs, tracing, alert flows.
-5. **Security & Compliance**: secret management, access policies, auditing.
 
 Main folder structure:
 
@@ -93,9 +82,5 @@ Main folder structure:
 ├── pipelines/
 ├── applications/
 ├── monitoring/
-└── security/
 ```
 
----
-
-> “Mapping structures and flows is the first step to delivering software consistently, quickly, and securely.”
